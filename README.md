@@ -2,6 +2,7 @@
 
 Sometimes we need to use a database without any ORM frameworks like EF.  
 Here is a simple service that allows you to work with a database directly through `System.Data.SqlClient`.  
+
 It are available three possibilities:  
 - `ExecuteNonQuery`
 - `ExecuteScalar`
